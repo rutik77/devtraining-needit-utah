@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_58872_needit_needit_ex_task</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>Click here to close&nbsp;NeedIt Task ${number}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>mailto.needit_exCloseNeedit_ExTask</name>
+        <sms_alternate/>
+        <subject>Re.${number} - please close needit_ex task </subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-15 16:32:47</sys_created_on>
+        <sys_id>47d5217a93308b104740fb295d03d6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mailto.needit_exCloseNeedit_ExTask</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_email_template_47d5217a93308b104740fb295d03d6b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-15 16:32:47</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

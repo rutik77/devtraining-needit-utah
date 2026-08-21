@@ -4,10 +4,10 @@
         <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>false</elevated_privilege>
+        <federated_id>mflRNtVIdl/vms2QM0f91QrW3yIaDCj/waEH0bPQk1g=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_58872_needit.needit_task_user</name>
-        <requires_subscription/>
         <scoped_admin>false</scoped_admin>
         <suffix>needit_task_user</suffix>
         <sys_class_name>sys_user_role</sys_class_name>

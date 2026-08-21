@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="48574ec5933bb2104740fb295d03d61f" extends="task" label="NeedIt_Ex" max_length="40" name="x_58872_needit_needit_ex" type="collection">
+        <element choice="3" default="legal" label="Request type" max_length="40" name="u_request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Facilities" sequence="1" value="facilities"/>
+                <element inactive_on_update="false" label="Human Resources" sequence="0" value="hr"/>
+                <element inactive_on_update="false" label="Legal" sequence="2" value="legal"/>
+            </choice>
+        </element>
+        <element label="Requested for email" max_length="40" name="u_requested_for_email" type="string"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Requested for" max_length="32" name="u_requested_for" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="3" default="legal1" label="What needed" max_length="40" name="u_what_needed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Human Resource 1" sequence="0" value="hr1"/>
+                <element inactive_on_update="false" label="Legal 2" sequence="5" value="legal2"/>
+                <element inactive_on_update="false" label="Facilities 2" sequence="3" value="facilities2"/>
+                <element inactive_on_update="false" label="Human Resource 2" sequence="1" value="hr2"/>
+                <element inactive_on_update="false" label="Other" sequence="6" value="other"/>
+                <element inactive_on_update="false" label="Legal 1" sequence="4" value="legal1"/>
+                <element inactive_on_update="false" label="Facilities 1" sequence="2" value="facilities1"/>
+            </choice>
+        </element>
+        <element label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
+        <element label="Other" max_length="40" name="u_other" type="string"/>
+    </element>
+</database>

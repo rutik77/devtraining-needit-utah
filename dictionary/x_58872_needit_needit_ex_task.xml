@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d8fd82f493b4cb504740fb295d03d60a" extends="task" label="needit_ex Task" max_length="40" name="x_58872_needit_needit_ex_task" type="collection"/>
+</database>
